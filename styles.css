@@ -1,0 +1,27 @@
+.header {
+    padding:12px;
+    background-color: #2E2836;
+    color: #B93535;
+    -webkit-text-stroke: #EC854C;
+    stroke-width: 50px;
+    font-family: fantasy;
+}
+
+body {
+    background-color: #E1AA7D;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    background-color:#714427;
+    margin: auto;
+    border:3px #2E2836;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    max-width: 40%;
+    max-height: 40%;
+}
