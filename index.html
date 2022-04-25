@@ -8,21 +8,37 @@
     <meta name="description" content="Info on Valheim">
     <meta name="keywords" content="best, amazing, website, Hayden, vikings">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>HTML CSS Lab</title>
 </head>
 <body>
-    <div class="header">
-        <h1>Valheim</h1>
-    </div>
-    <div class="column">
-            <h1>Survive</h1>
-            <h5>Gather resources from trees and rocks. Craft tools and armor to help you survive the harsh world.</h5>
+    <div class="header"></div>
+        <h1 class="mainTitle">Valheim</h1>
+            <input class="searchBar" type="text" placeholder="Search The Valheim Guide"/>
+            <button class="login" type="button" onclick="alert('You pressed the button!')">Log In<button>
+            <button class="settings" type="button">Settings</button>
+    <div class="page">
+            <h1 class="listTitle">Survive</h1>
+            <h4>Gather resources from trees and rocks. Craft tools and armor to help you survive the harsh world.</h4>
+            <a href="https://valheim.fandom.com/wiki/Tools" target="_blank">
+                <button class="learn" type="button" title="Valheim Wiki">Learn</button>
+            </a>
+        </div>
             <img src="https://cdn.pocket-lint.com/r/s/970x/assets/images/155668-games-news-feature-what-is-valheim-the-viking-survival-game-explored-with-tips-and-tricks-image7-vg0fcckrsb-jpg.webp?v1" alt="Survive pic"/>
+    <div class="page">
+        <h1 class="listTitle">Build</h1>
+        <h4>Gather wood and stone to build grand bases. Build against the waters to insure a strong port.</h4>
+        <a href="https://gamerant.com/valheim-best-locations-base-build/" target="_blank">
+            <button class="learn" type="button" title="Base Building Help">Learn</button>
+        </a>
     </div>
-    <div class="column">
-        <h1>Build</h1>
-        <h5>Gather resources from trees and rocks. Craft tools and armor to help you survive the harsh world.</h5>
         <img src="https://www.pcgamesn.com/wp-content/uploads/2021/02/valheim-building-guide.jpg" alt="Build pic"/>
-</div>
+    <div class="page">
+        <h1 class="listTitle">Battle</h1>
+        <h4>Battle not only skeletons, ghosts and trolls.. but terrifying bosses like The Moder. A flying ice breathing dragon!</h4>
+            <a href="https://www.youtube.com/watch?v=mXF3O1YM6xI" target="_blank">
+                <button class="learn" type="button" data-hover="testing" title="Moder Tutorial">Learn</button>
+            </a>
+    </div>
+        <img src="https://www.dexerto.com/wp-content/uploads/2021/11/18/all-valheim-bosses-in-order-how-to-summon.jpeg" alt="Battle pic"/>
 </body>
 </html>
